@@ -1,5 +1,5 @@
 {
-  "name": "sjasseo",
+  "name": "napseoblog",
   "version": "1.0.0",
   "description": "Web Dev't Boilerplate Setup using Express",
   "main": "server.js",
@@ -13,4 +13,6 @@
   "dependencies": {
     "express": "^4.16.2"
   }
+  var handlebars = require('express3-handlebars')
+  .create({ defaultLayout:'main' });
 }
